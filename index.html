@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+        <!--!    header start section    -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="pictures/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="pictures/menu1.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$49.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="pictures/menu2.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$69.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="pictures/menu3.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$59.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="pictures/menu4.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$39.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Pre-order now</a>
+        </div>
+    </header>
+    <!--!    header end section    -->
+
+    <!--!    home start section    -->
+    <section class="home" id="home">
+<div class="content">
+    <h3>ONLINE ORDER</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper, metus sit amet consequat congue, leo diam pharetra justo, et dictum metus purus vel leo. Fusce ac eros et odio consequat ultricies sed ut ipsum.</p>
+    <a href="#" class="btn">Order Now</a>
+</div>
+    </section>
+    <!--!    home end section    -->
+
+    <!--!    menu start section    -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="pictures/menu1.png" alt="menu" />
+                    <span class="menu-category">NOODLES</span>
+                    <h3>Classic Noodles</h3>
+                    <div class="price">$49.99 <span>$59.99</span></div>
+                </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">More Info</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="pictures/menu2.png"alt="menu" />
+                <span class="menu-category">RAMEN</span>
+                <h3>Shiro Miso Ramen</h3>
+                <div class="price">$69.99 <span>$79.99</span></div>
+            </div>
+        <div class="box-bottom">
+            <a href="#" class="btn">More Info</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-head">
+            <img src="pictures/menu3.png"alt="menu" />
+            <span class="menu-category">NOODLES</span>
+            <h3>Brothless Noodles</h3>
+            <div class="price">$59.99 <span>$69.99</span></div>
+        </div>
+    <div class="box-bottom">
+        <a href="#" class="btn">More Info</a>
+    </div>
+        </div>
+        <div class="box">
+    <div class="box-head">
+            <img src="pictures/menu4.png"alt="menu" />
+            <span class="menu-category">NOODLES</span>
+            <h3>Udon Noodle Soup</h3>
+            <div class="price">$39.99 <span>$49.99</span></div>
+        </div>
+        <div class="box-bottom">
+        <a href="#" class="btn">More Info</a>
+        </div>
+            </div>
+    </section>
+    <!--!    menu end section    -->
+
+    <!--!    products start section    -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">SUSHİ</span>
+                    <a href="#" class="name">California Roll</a>
+                </div>
+                <div class="image">
+                    <img src="pictures/california-roll-2186520_1280.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$12.49</b>
+                        <span class="amount">33.5 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">SUSHİ</span>
+                    <a href="#" class="name">Nigiri Salmon Roll</a>
+                </div>
+                <div class="image">
+                    <img src="pictures/Nigiri Salmon.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$12.49</b>
+                        <span class="amount">33.5 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">SUSHİ</span>
+                    <a href="#" class="name">Maki Roll</a>
+                </div>
+                <div class="maki-roll">
+                    <img src="pictures/maki sushi.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$12.49</b>
+                        <span class="amount">33.5 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--!    products end section    -->
+    
+    
+    <!--!    about start section    -->
+    <section class="about" id="about">
+        <h1 class="heading">about <span>us </span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="pictures/about.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>What Is The Secret Recipe Of Our Noodles?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam neque purus, pretium sed orci quis, iaculis laoreet velit.</p>
+                <p>Nunc malesuada sollicitudin maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam faucibus mi at condimentum convallis.</p> 
+                <p>Aliquam ornare tellus ac orci commodo, ultricies condimentum purus consectetur. Praesent rutrum pretium enim sed egestas. Donec eget aliquam nunc, quis pretium purus. Nunc nec mauris ac nisl sollicitudin sagittis at non tellus. Donec vel libero tellus. Donec ante risus, dignissim eu urna a, lobortis eleifend neque.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!--!    about end section    -->
+    
+    <!--!    review start section    -->
+        <section class="review" id="review">
+            <h1 class="heading">customer's <span>review </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="pictures/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur congue eleifend. Maecenas viverra sapien mauris, at porta mi ullamcorper quis. Nulla risus nibh, scelerisque sed justo et, venenatis fermentum urna. Curabitur tempor eget magna a facilisis. Praesent fermentum ultrices sapien non vehicula. Curabitur scelerisque pulvinar vestibulum</p>
+                    <img src="pictures/avatar-1.png" alt="avatar" class="user">
+                    <h3>Jenna Beacon</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="pictures/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur congue eleifend. Maecenas viverra sapien mauris, at porta mi ullamcorper quis. Nulla risus nibh, scelerisque sed justo et, venenatis fermentum urna. Curabitur tempor eget magna a facilisis. Praesent fermentum ultrices sapien non vehicula. Curabitur scelerisque pulvinar vestibulum</p>
+                    <img src="pictures/avatar-2.png" alt="avatar" class="user">
+                    <h3>Chris Bailey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="pictures/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur congue eleifend. Maecenas viverra sapien mauris, at porta mi ullamcorper quis. Nulla risus nibh, scelerisque sed justo et, venenatis fermentum urna. Curabitur tempor eget magna a facilisis. Praesent fermentum ultrices sapien non vehicula. Curabitur scelerisque pulvinar vestibulum</p>
+                    <img src="pictures/avatar-3.png" alt="avatar" class="user">
+                    <h3>Sophie Taylor</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--!    review end section    -->
+
+    <!--!    contact start section    -->
+        <section class="contact" id="contact">
+            <h1 class="heading">contact <span>us </span></h1>
+            <div class="row">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2str!4v1690264150792!5m2!1sen!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form>
+                    <h3>get in touch</h3>
+                    <div class="inputBox">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="name">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="e-mail">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-phone"></i>
+                        <input type="number" placeholder="phone">
+                    </div>
+                    <input type="submit" class="btn" value="contact now">
+                </form>
+            </div>
+        </section>
+    <!--!    contact end section    -->
+
+    <!--!    blogs start section    -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">our <span>blog </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                    <img src="pictures/blog1.png" alt="blog">
+                 </div>
+                 <div class="content">
+                    <a href="#" class="title">How to make noodles?</a>
+                    <span>by admin / 5th june, 2021</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur congue eleifend. Maecenas viverra sapien mauris, at porta mi ullamcorper quis.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="pictures/blog2.png" alt="blog">
+                 </div>
+                 <div class="content">
+                    <a href="#" class="title">Your noodle place is here.</a>
+                    <span>by staff / 1st jan, 2022</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur congue eleifend. Maecenas viverra sapien mauris, at porta mi ullamcorper quis.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="pictures/blog3.jpg" alt="blog">
+                 </div>
+                 <div class="content">
+                    <a href="#" class="title">Do you want to try new tastes?</a>
+                    <span>by admin / 6th oct, 2023</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur congue eleifend. Maecenas viverra sapien mauris, at porta mi ullamcorper quis.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                </div>
+            </div>
+        </section>
+    <!--!    blogs end section    -->
+
+    <!--!    footer start section    -->
+        <section class="footer">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="btn btn-primary">search</button>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+
+            <div class="links">
+                <a href="#" class="active">Home</a>
+                <a href="#" >About</a>
+                <a href="#" >Menu</a>
+                <a href="#" >Products</a>
+                <a href="#" >Review</a>
+                <a href="#" >Contacts</a>
+                <a href="#" >Blogs</a>
+            </div>
+
+            <div class="credit">
+                created by <span>Emirhan Şahin</span> | all rights reserved
+            </div>
+        </section>
+    <!--!    footer end section    -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
